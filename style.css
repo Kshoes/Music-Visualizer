@@ -1,0 +1,53 @@
+body {
+    overflow: hidden;
+}
+
+audio {
+    position: absolute;
+    z-index: 2;
+}
+
+.background {
+    position: absolute;
+    top: -50;
+    right: -50;
+    bottom: -50;
+    left: -50;
+
+    background-image: url("background.jpeg");
+    background-position: center center;
+    background-size: cover;
+
+    filter: blur(0px);
+}
+
+.track-title {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 0;
+
+    color: white;
+    font-family: Calibri;
+    font-size: 100px;
+    text-align: center;
+}
+
+.visualizer-container {
+    position: absolute;
+
+    bottom: 250px;
+    right: 0;
+    left: 0;
+
+    /* background-color: red; */
+
+    text-align: center;
+}
+
+.visualizer-container__bar {
+    display:inline-block;
+    background: white;
+    margin: 0 2px;
+    width: 25px;
+}
