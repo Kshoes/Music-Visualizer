@@ -11,6 +11,9 @@ To run on your computer, cd into Music-Visualizer in your terminal and enter in 
 
 #### Important note: 
 You may need to enable autoplay and/or sound in your browser if the track doesn't play automatically. Settings may differ between browsers. In Brave Browser:
-    1) Click on the icon to the left of the URL
+
+    1) Click on the icon to the left of the URL\
+
     2) Go to site settings 
+    
     3) Under permissions, enable sound and autoplay (Non-default)
