@@ -64,7 +64,7 @@
 
     renderFrame();
 
-    audio.volume = .25;
-    // audio.play();
+    audio.volume = .15;
+    audio.play();
 
 })();

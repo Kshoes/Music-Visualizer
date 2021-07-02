@@ -51,3 +51,15 @@ audio {
     margin: 0 2px;
     width: 25px;
 }
+
+#login, #loggedin {
+    z-index: 1;
+    display: none;
+}
+
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+}
